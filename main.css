@@ -17,7 +17,6 @@
 
 html {
     font-size: 62.5%;
-    font-family: Noto-Sirf, Nunito;
 }
 
 .header {
@@ -28,6 +27,7 @@ html {
 .header__title {
     display: flex;
     justify-content: center;
+    font-family: Noto-Serif;
     margin: 50px;
     font-size: 6em;
 }
@@ -46,12 +46,14 @@ html {
 
 .section__paragraph {
     font-size: 1.4em;
+    font-family: Nunito;
 }
 
 .link__question {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Nunito;
     height: 80px;
     color: black;
     font-size: 2em;
