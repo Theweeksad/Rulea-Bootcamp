@@ -19,18 +19,21 @@ html {
 
 h1 {
     font-family: Noto-Serif;
+    font-size: 6em;
 }
 
 h2 {
     font-family: Nunito;
+    font-size: 4em;
 }
 
 p {
     font-family: Nunito;
-
+    font-size: 1.4em;
 }
 
 a {
     font-family: Nunito;
     color: var(--anchor-color);
+    font-size: 2em;
 }
