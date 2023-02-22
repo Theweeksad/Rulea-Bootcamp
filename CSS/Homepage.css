@@ -1,12 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
 .header__title {
     display: flex;
     justify-content: center;
     margin: 50px;
+    font-size: 6em;
 }
 
 .header__subtitle {
-    display: flex;
+    display: flex; 
     margin: 30px 0px 30px 50px;
+    font-size: 4em;
 }
 
 .section {
@@ -15,9 +32,14 @@
     height: 450px;
 }
 
+.section__paragraph {
+    font-size: 1.4em;
+}
+
 .link__question {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Nunito;
     height: 80px;
 }
