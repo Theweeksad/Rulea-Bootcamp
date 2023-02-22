@@ -1,0 +1,39 @@
+:root {
+    --anchor-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Noto-Serif;
+    font-size: 6em;
+}
+
+h2 {
+    font-family: Nunito;
+    font-size: 4em;
+}
+
+p {
+    font-family: Nunito;
+    font-size: 1.4em;
+}
+
+a {
+    font-family: Nunito;
+    color: var(--anchor-color);
+    font-size: 2em;
+}
