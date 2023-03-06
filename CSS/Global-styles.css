@@ -12,9 +12,8 @@ html {
     font-size: 62.5%;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
+body {
+    font-family: Nunito;
 }
 
 h1 {
@@ -23,17 +22,14 @@ h1 {
 }
 
 h2 {
-    font-family: Nunito;
     font-size: 4em;
 }
 
 p {
-    font-family: Nunito;
     font-size: 1.4em;
 }
 
 a {
-    font-family: Nunito;
     color: var(--anchor-color);
     font-size: 2em;
 }
