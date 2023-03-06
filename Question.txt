@@ -21,5 +21,4 @@ pregunta 3      (JAVASCRIPT)
 --CONST
 --LET
 
-
 ---END---
