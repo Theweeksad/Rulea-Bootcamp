@@ -20,3 +20,6 @@ pregunta 3      (JAVASCRIPT)
 --VAR
 --CONST
 --LET
+
+
+---END---
