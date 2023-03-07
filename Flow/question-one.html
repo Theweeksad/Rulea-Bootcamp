@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/typography.css" />
+    <link rel="stylesheet" href="../CSS/Global-styles.css" />
+    <link rel="stylesheet" href="../CSS/Homepage.css" />
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <title>Rulea Bootcamp</title>
 </head>
 <body>
+    <header class="header">
+        <h1 class="header__title">Title</h1>
+    </header>
+
     <main>
+        <form id="form__list">
+            <fieldset>
+                <legend class="title__question">¿Cuales son los tags más comunes de landmakrs?</legend>
+                <p class="form__item">
+                    <label>Header, Main, Nav y Footer</label>
+                    <input for="Header, Main, Nav y Footer"
+                    id="answerOne"
+                    class="input__btn"
+                    type="radio"
+                    name="query1"
+                    value="1">
+                </p>
+                <p class="form__item">
+                    <label>Section, Article</label>
+                    <input for="Section, Article"
+                    id="answerTwo"
+                    class="input__btn"
+                    type="radio"
+                    name="query1"
+                    value="2">
+                </p>
+                <p class="form__item">
+                    <label>Div</label>
+                    <input for="Div"
+                    id="answerThree"
+                    class="input__btn"
+                    type="radio"
+                    name="query1"
+                    value="3">
+                </p>
+            </fieldset>
+        </form>
         <section>
             <a class="link__question" href="./question-two.html">NEXT</a>
         </section>

@@ -33,3 +33,8 @@ a {
     color: var(--anchor-color);
     font-size: 2em;
 }
+
+fieldset {
+    margin: 0px;
+    border: none;
+}
