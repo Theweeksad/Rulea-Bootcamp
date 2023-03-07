@@ -1,0 +1,24 @@
+---Preguntas---
+
+pregunta 1      (HTML)
+¿Cuales son los tags más comunes de landmakrs?
+
+--header,main,nav y footer
+--section, article
+--div
+
+pregunta 2      (CSS)
+¿Cuentas veces se puede repetir un #ID en el proyecto?
+
+--Una sola vez
+--dos veces
+--El #ID no existe
+
+pregunta 3      (JAVASCRIPT)
+¿Cual de estas variables nunca cambia el valor?
+
+--VAR
+--CONST
+--LET
+
+---END---
