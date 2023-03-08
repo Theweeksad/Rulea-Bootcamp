@@ -27,5 +27,5 @@
 /* question-one */
 
 #form__list {
-    
+    display: flex;
 }
