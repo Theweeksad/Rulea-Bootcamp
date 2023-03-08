@@ -25,6 +25,6 @@
 }
 
 /* question-one */
-#form__list {
+.form__list {
     display: flex;
 }
