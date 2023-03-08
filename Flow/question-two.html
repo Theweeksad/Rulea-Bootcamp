@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/typography.css" />
+    <link rel="stylesheet" href="../CSS/Global-styles.css" />
+    <link rel="stylesheet" href="../CSS/Homepage.css" />
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <title>question-two</title>
 </head>
 <body>
+    <header class="header">
+        <h1 class="header__title">Title</h1>
+    </header>
+
     <main>
+        <form id="form__list" class="form__list">
+            <fieldset>
+                <legend class="title__question">¿Cuentas veces se puede repetir un #ID en el proyecto?</legend>
+                <p class="form__item">
+                    <input
+                    id="answerOne"
+                    class="input__btn"
+                    type="checkbox"
+                    name="query-1"
+                    value="1">
+                    <label for="Una">Una sola vez</label>
+                </p>
+                <p class="form__item">
+                    <input
+                    id="answerTwo"
+                    class="input__btn"
+                    type="checkbox"
+                    name="query-1"
+                    value="2">
+                    <label for="dos">Dos veces</label>
+                </p>
+                <p class="form__item">
+                    <input
+                    id="answerThree"
+                    class="input__btn"
+                    type="checkbox"
+                    name="query-1"
+                    value="3">
+                    <label for="#ID">El #ID no existe</label>
+                </p>
+            </fieldset>
+        </form>
         <section>
             <a class="link__question" href="./question_three.html">NEXT</a>
         </section>
