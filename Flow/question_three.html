@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/typography.css" />
+    <link rel="stylesheet" href="../CSS/Global-styles.css" />
+    <link rel="stylesheet" href="../CSS/Homepage.css" />
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <title>Question-Three</title>
 </head>
 <body>
+    <header class="header">
+        <h1 class="header__title">Title</h1>
+    </header>
+
     <main>
+        <form id="form__list" class="form__list">
+            <fieldset>
+                <legend class="title__question">¿Cual de estas variables nunca cambia el valor?</legend>
+                <input
+                id="answerSlaider"
+                class="slaider"
+                type="range"
+                min="1"
+                max="3"
+                step="1"
+                name="query-1"
+                value="1">
+                <p class="slaider__item">
+                    <label for="Var">Var</label>
+                    <label for="Const">Const</label>
+                    <label for="Let">Let</label>
+                </p>
+            </fieldset>
+        </form>
         <section>
             <a class="link__question" href="./Last-card.html">NEXT</a>
         </section>

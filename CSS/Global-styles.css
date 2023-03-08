@@ -40,10 +40,14 @@ form {
 }
 
 form {
-    font-size: 16px;
+    font-size: 1.6em;
 }
 
 fieldset {
     margin: 0px;
     border: none;
+}
+
+legend {
+    font-size: 24px;
 }
