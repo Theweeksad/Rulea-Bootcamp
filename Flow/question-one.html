@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/typography.css" />
+    <link rel="stylesheet" href="../CSS/Global-styles.css" />
+    <link rel="stylesheet" href="../CSS/Homepage.css" />
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <title>Question-one</title>
 </head>
 <body>
+    <header class="header">
+        <h1 class="header__title">Title</h1>
+    </header>
+
     <main>
+        <form id="form__list" class="form__list">
+            <fieldset>
+                <legend class="title__question">¿Cuales son los tags más comunes de landmakrs?</legend>
+                <p class="form__item">
+                    <input
+                    for="response1"
+                    id="answerOne"
+                    class="input__btn"
+                    type="radio"
+                    name="query-1"
+                    value="1">
+                    <label for="answerOne">Header, Main, Nav y Footer</label>
+                </p>
+                <p class="form__item">
+                    <input
+                    for="response2"
+                    id="answerTwo"
+                    class="input__btn"
+                    type="radio"
+                    name="query-1"
+                    value="2">
+                    <label for="answerTwo">Section, Article</label>
+                </p>
+                <p class="form__item">
+                    <input
+                    for="response3"
+                    id="answerThree"
+                    class="input__btn"
+                    type="radio"
+                    name="query-1"
+                    value="3">
+                    <label for="answerThree">Div</label>
+                </p>
+            </fieldset>
+        </form>
+
         <section>
             <a class="link__question" href="./question-two.html">NEXT</a>
         </section>
