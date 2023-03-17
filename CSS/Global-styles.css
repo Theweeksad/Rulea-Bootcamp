@@ -33,3 +33,16 @@ a {
     color: var(--anchor-color);
     font-size: 2em;
 }
+
+form {
+    font-size: 1.6em;
+}
+
+fieldset {
+    margin: 0px;
+    border: none;
+}
+
+legend {
+    font-size: 1.7em;
+}
