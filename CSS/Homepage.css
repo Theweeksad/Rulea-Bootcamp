@@ -39,17 +39,21 @@
     justify-content: space-between;
 }
 
+.form__container {
+    margin: 0px 35px;
+}
+
 .title__question {
-    margin: 0px 35px 26px 35px;
+    margin-bottom: 26px;
 }
 
 .form__item {
-    margin: 0px 0px 15px 35px;
+    margin-bottom: 15px;
 }
 
 /*question-three*/
 .form__range {
-    margin: 0px 39px 20px 50px;
+    margin-bottom: 30px;
 }
 
 .slider {
@@ -70,5 +74,5 @@
 
 .slider__item {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
