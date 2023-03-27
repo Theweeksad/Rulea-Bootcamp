@@ -1,3 +1,5 @@
-const answerFirst = document.getElementById('answerOne');
-const answerSecound = document.getElementById('answerTwo');
-const answerThird = document.getElementById('answerthree');
+document.getElemntById('form__list').addEventListener('click', function (event) {
+
+    const form = event.target;
+    const formFields = form.elements;
+})

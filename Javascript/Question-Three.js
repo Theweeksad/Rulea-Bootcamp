@@ -1,1 +1,0 @@
-const answerSeventh = document.getElementById8('answerSlider');
