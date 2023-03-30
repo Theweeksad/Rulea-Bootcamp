@@ -1,5 +1,7 @@
 :root {
     --anchor-color: black;
+    --true-color: #D6F1CF;
+    --incorrect-color: #F8D8D8;
 }
 
 * {

@@ -1,5 +1,8 @@
-document.getElemntById('form__list').addEventListener('click', function (event) {
+const form = document.getElementById("form__list");
 
-    const form = event.target;
-    const formFields = form.elements;
-})
+form.addEventListener('submit', function (event) {
+  event.preventDefault();
+
+  const isCorrect = event.target.query1.value === '1';
+  sessionStorage.setItem('question1', isCorrect);
+});
