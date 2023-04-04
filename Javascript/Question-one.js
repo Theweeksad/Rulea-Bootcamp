@@ -6,5 +6,5 @@ form.addEventListener('submit', function (event) {
   const isCorrect = event.target.query1.value === '1';
   sessionStorage.setItem('question1', isCorrect);
 
-  window.location.href="./quetion-two.html"
+  window.location.href="./question-two.html"
 });
