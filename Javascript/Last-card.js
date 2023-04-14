@@ -8,9 +8,9 @@ const questionElement3 = document.getElementById('resultThree');
 
 function validation(result, element) {
     if(result === 'true') {
-        element.classList.add('correctAnswer', 'imag__correct')
+        element.classList.add('correctAnswer')
     } else {
-        element.classList.add('incorrectAnswer', 'imag__incorrect')
+        element.classList.add('incorrectAnswer')
     }
 }
 
