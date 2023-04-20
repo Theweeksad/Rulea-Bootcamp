@@ -19,39 +19,42 @@
     <main>
         <form id="form__list" class="form__list">
             <fieldset class="form__container">
-                <legend class="title__question">How many times can an #ID be repeated in the project?</legend>
+                <legend class="title__question">(Which are incorrect) How many times can an #ID be repeated in the project?</legend>
                 <p class="form__item">
                     <input
-                    id="answerFour"
-                    class="input__btn"
-                    type="checkbox"
-                    name="query-2"
-                    value="4">
-                    <label for="answerFour">Una sola vez</label>
+                        id="answerFour"
+                        class="input__btn"
+                        type="checkbox"
+                        name="query2"
+                        value="1"
+                    />
+                    <label for="answerFour">Only once</label>
                 </p>
                 <p class="form__item">
                     <input
-                    id="answerFive"
-                    class="input__btn"
-                    type="checkbox"
-                    name="query-2"
-                    value="5">
-                    <label for="answerFive">Dos veces</label>
+                        id="answerFive"
+                        class="input__btn"
+                        type="checkbox"
+                        name="query2"
+                        value="2"
+                    />
+                    <label for="answerFive">Twice</label>
                 </p>
                 <p class="form__item">
                     <input
-                    id="answerSix"
-                    class="input__btn"
-                    type="checkbox"
-                    name="query-2"
-                    value="6">
-                    <label for="answerSix">El #ID no existe</label>
+                        id="answerSix"
+                        class="input__btn"
+                        type="checkbox"
+                        name="query2"
+                        value="3"
+                    />
+                    <label for="answerSix">The #ID does not exist</label>
                 </p>
             </fieldset>
+            <input class="btn__next" type="submit" value="Next">
         </form>
-        <section>
-            <a class="link__question" href="./question_three.html">NEXT</a>
-        </section>
     </main>
+
+    <script src="../Javascript/Question-two.js"></script>
 </body>
 </html>

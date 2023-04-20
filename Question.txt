@@ -8,11 +8,12 @@ What are the most common landmark tags?
 --div
 
 Question 2      (CSS)
+(Which are incorrect)
 How many times can an #ID be repeated in the project?
 
---Una sola vez
---dos veces
---El #ID no existe
+--Only once
+--Twice
+--The #ID does not exist
 
 Question 3      (JAVASCRIPT)
 Which of these variables never changes value?
